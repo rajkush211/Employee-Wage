@@ -23,6 +23,7 @@ do
 
 	salary=$(( $empHrs * $empRatePerHr ));
 	totalSalary=$(( $totalSalary + $salary ));
+
 done
 
 sleep 2
