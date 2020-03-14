@@ -34,6 +34,6 @@ do
 
 done
 
-totalSalary=$(( $totalEmpHrs + $EMP_RATE_PER_HR ));
+totalSalary=$(( $totalEmpHrs * $EMP_RATE_PER_HR ));
 
 sleep 2
